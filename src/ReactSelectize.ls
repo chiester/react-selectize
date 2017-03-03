@@ -120,16 +120,6 @@ module.exports = create-class do
 
             style: @props.style
 
-
-# this causes React to throw errors relating to controlled vs. uncontrolled components
-          #   if !!@props.name
-
-              # HIDDEN INPUT (for form submission)
-              #   input do
-              #      type: \hidden
-              #      name: @props.name
-              #      value: @props.serialize @props.values
-
             # CONTROL
             div do
                 class-name: \react-selectize-control
