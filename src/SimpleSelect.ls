@@ -68,8 +68,8 @@ module.exports = React.create-class do
 
         # props
         {
-            autofocus, autosize, cancel-keyboard-event-on-selection, delimiters, disabled, maxLength, dropdown-direction, group-id,
-            groups, groups-as-columns, hide-reset-button, name, input-props, on-blur-resets-input, render-toggle-button,
+            autofocus, autosize, cancel-keyboard-event-on-selection, delimiters, disabled, dropdown-direction, group-id,
+            groups, groups-as-columns, hide-reset-button, maxLength, name, input-props, on-blur-resets-input, render-toggle-button,
             render-group-title, render-reset-button, serialize, tether, tether-props, theme, transition-enter,
             transition-leave, transition-enter-timeout, transition-leave-timeout, uid
         }? = @props
