@@ -29,7 +29,7 @@ module.exports = create-class do
         # class-name :: String
         delimiters: []
         disabled: false
-        maxLength: 255
+        maxLength: false
         dropdown-direction: 1
         first-option-index-to-highlight: (options) -> 0
         group-id: (.group-id) # Item -> a
